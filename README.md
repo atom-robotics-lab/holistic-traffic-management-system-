@@ -1,4 +1,4 @@
-# holistic-traffic-management-system-# Holistic-Traffic-Management-system
+# Holistic-Traffic-Management-system
 The project had multiple (Proximity sensors embedded on the road to determine the density of traffic waiting on a particular signal and accordingly control the traffic lights. Apart from this the red-light sensors also had a RFID receiver which detected a passing emergency vehicle such as an ambulance and appropriately changed the traffic lights.In addition to this grafana was used to represent data in a dynamic  way.
 ![image](https://user-images.githubusercontent.com/84952780/170506027-3b1c18b3-90db-4641-b290-73dca9440ade.png)
 
