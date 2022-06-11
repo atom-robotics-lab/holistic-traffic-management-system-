@@ -256,3 +256,4 @@ With the boom of artificial intelligence and machine learning, this project can 
 ##Steps
 ```bash
   pip install opencv
+  cv2.imread()
