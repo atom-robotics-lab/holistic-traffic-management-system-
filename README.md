@@ -183,7 +183,7 @@ https://dl.espressif.com/dl/package_esp32_index.json, http://arduino.esp8266.com
 
 - Now choose esp32 dev module in __Tools__ > __Board__ > __esp32 Arduino__
 
-- Search and install __DHT sensor library__ and Wifi library from __Tools__ > __Manage Libraries__
+- Search and install __Adafruit MFRC630 RFID library__ and Wifi library from __Tools__ > __Manage Libraries__
 
 - Open the esp32 file from your directory (or ctrl+O)
 
@@ -229,7 +229,7 @@ redis-cli
 SET <your_metric_name> <value>
 ```
 
-The metrics that you need to set here are: __temperature__, __humidity__, __gas_analog__, __ldr__ (you can find these variables being defined in __main.py__ and used in __prom-exporter.py__)
+The metrics that you need to set here are: __tlimit__(for Time Limit), __esevices__(for Emergency Services, __vden__(for Vehicular Density)  (you can find these variables being defined in __main.py__ and used in __prom-exporter.py__)
 
 You can also check the whether the values are being published or not by
 
