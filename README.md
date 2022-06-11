@@ -169,9 +169,7 @@ sudo systemctl start <service_name>
 
 ### Using esp32 with Arduino IDE
 
-- Make the circuit given below using the sensors, esp32, breadboard and jumper wires
 
-<center><image src="images/schematic.jpg" height="300" width="500"></center>
 
 - Install arduino ide and add esp32 to the ide by adding the given url to __File__ > __Preferences__ > __setings__ > __Additional Boards Manager Urls__
 
