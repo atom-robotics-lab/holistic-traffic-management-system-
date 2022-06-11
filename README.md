@@ -3,7 +3,7 @@ The project had multiple (Proximity sensors embedded on the road to determine th
 ![image](https://user-images.githubusercontent.com/84952780/170506027-3b1c18b3-90db-4641-b290-73dca9440ade.png)
 ### Tech Stack used
 
-  This is an IoT enables risk monitoring system in cold supply chain.
+  This is an IoT enabled Traffic Management System.
   In this project we have used multiple Tech. stacks like:
   - Django
   - Grafana
@@ -13,14 +13,14 @@ The project had multiple (Proximity sensors embedded on the road to determine th
   - Python
   - Arduino IDE
 
-  Furthermore we have used multiple sensors to detect the conditions of the cold storage like:
-  - Temperature(DHT11)
-  - Humidity(DHT11)
-  - Harmful Gases(MQ135)
-  - Luminosity(LDR)
-  - GPS Module 
+  Furthermore we have used:
+  - RFID Sensor
+  - Servo
+  - IR sensor
+  - LCD 
   
-  We even used GSM  Module to use mobile network to transmit the data extracted by the sensors and upload it to grafana.  
+  
+  We even used Open cv for better detection of traffic.  
 
 ## Requirements
 
@@ -246,7 +246,7 @@ GET <your_metric_name>
 
 - Go to the __explore panel__ (Compas icon on the left)
 
-- Now select __Metric Browser__>__Storage_sensor_total__ then select __your metric/job__.
+- Now select __Metric Browser__>__Halt_total__ then select __your metric/job__.
 
 
 
