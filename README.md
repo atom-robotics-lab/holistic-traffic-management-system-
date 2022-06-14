@@ -248,6 +248,7 @@ GET <your_metric_name>
 
 - Now select __Metric Browser__>__Halt_total__ then select __your metric/job__.
 
+![image](https://user-images.githubusercontent.com/84952780/173678644-d9f7fb6a-b36e-4b4c-9751-8affe7ae302e.png)
 
 
 # OPEN CV
