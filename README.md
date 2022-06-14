@@ -143,6 +143,7 @@ cd <directory_name> #i.e arduino-1.6.10>
 ls -l /dev/ttyACM*
 sudo usermod -a -G dialout <username>
 ```
+![5](https://user-images.githubusercontent.com/84952780/173679075-4517eb62-2164-4ac2-b0be-f1904d3d025b.png)
 
 ## Usage
 
